@@ -31,3 +31,11 @@ const isMemberString = "false";
 const isMemberBoolean = Boolean(isMemberString); // true
 
 console.log(isMemberBoolean);
+
+// Add explanatory comments about type conversion and coercion
+// Type conversion refers to the process of converting a value from one type to another.
+// This can be done explicitly by the programmer using functions like Number(), String(), and Boolean().
+// Type coercion, on the other hand, is the automatic conversion performed by JavaScript
+// when it encounters values of different types in operations. For example, when using the + operator
+// with a string and a number, JavaScript coerces the number to a string to perform concatenation.
+console.log(isMemberBoolean);
